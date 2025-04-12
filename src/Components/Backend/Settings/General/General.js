@@ -16,7 +16,7 @@ import {
 import { Label, MediaArea } from "../../../../../../bpl-tools/Components";
 
 const General = ({ attributes, setAttributes }) => {
-  const { options,notes} = attributes;
+  const { options,notes, selectedNote} = attributes;
   
 
   return (

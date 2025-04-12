@@ -39,6 +39,7 @@ const Note = ({
     options
   } = attributes;
   const note = notes[options?.selectedTheme];
+  console.log(options?.selectedTheme);
   return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "box-content"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
@@ -53,9 +54,10 @@ const Note = ({
     className: "text-box"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "icon"
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-    src: note?.icon,
-    alt: "Alert Icon"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", {
+    dangerouslySetInnerHTML: {
+      __html: note?.icon
+    }
   })), isBacked ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText, {
     placeholder: "type note name",
     tagName: "h3",

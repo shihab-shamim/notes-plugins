@@ -4,9 +4,10 @@ import icon4 from '../assest/image/icon-4.png';
 import icon5 from '../assest/image/icon-5.png';
 import icon15 from '../assest/image/icon-15.png';
 import { __ } from '@wordpress/i18n';
-const Note = ({attributes,setAttributes,isBacked}) => {
+const Note = ({attributes,setAttributes,isBacked, }) => {
     const {notes,options}=attributes
     const note= notes[options?.selectedTheme]
+    console.log(options?.selectedTheme);
     return (
         <div className="box-content">
             <div className="container">
@@ -14,7 +15,7 @@ const Note = ({attributes,setAttributes,isBacked}) => {
                     <div className="content-inner">
                         <div className="single-box">
                             <div className="text-box">
-                                <div className="icon"><img src={note?.icon} alt="Alert Icon" /></div>
+                                <div className="icon"><span dangerouslySetInnerHTML={{__html:note?.icon}}></span></div>
                                 {isBacked ?<RichText placeholder='type note name' tagName='h3' value={note?.name} onChange={(value) =>
             setAttributes({ notes: updateData(notes, value,options?.selectedTheme, "name") })
           } />:<h3>{note?.name}</h3>}
@@ -38,6 +39,7 @@ const Note = ({attributes,setAttributes,isBacked}) => {
                         </div>
                        
                     </div>
+                    
                 </div>
 
                
