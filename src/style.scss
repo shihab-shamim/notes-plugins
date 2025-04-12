@@ -1,0 +1,135 @@
+
+
+.wp-block-b-blocks-notes-plugin {
+*{	box-sizing: border-box;
+
+
+    margin:0px;
+    padding:0px;
+    border:none;
+    outline:none;
+}
+
+  .text-box{
+	width: 100%;
+  }
+  
+	.container {
+		
+		margin: 0 auto;
+	}
+	
+
+	.basic-information-button{
+		width: max-content;
+		position: relative;
+		display: flex;
+		align-items: center;
+		gap: 15px;
+		font-size: 18px;
+		line-height: 26px;
+		font-weight: 700;
+		color: #0293dc;
+		text-decoration: none;
+		margin-top: 20px;
+		transition: all 500ms ease;
+		cursor: pointer;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+	.basic-file-button{
+		width: max-content;
+		position: relative;
+		display: flex;
+		align-items: center;
+		gap: 15px;
+		font-size: 18px;
+		line-height: 26px;
+		font-weight: 700;
+		color: #9747ff;
+		text-decoration: none;
+		margin-top: 20px;
+		transition: all 500ms ease;
+		cursor: pointer;
+
+	}
+	
+	.content-box-one {
+		margin-bottom: 50px;
+	}
+	
+	
+	
+	.single-box {
+		position: relative;
+		display: flex;
+		align-items: center;
+		gap: 100px;
+		margin-bottom: 40px;
+	}
+	
+	.single-box:last-child {
+		margin-bottom: 0px;
+	}
+	
+	.single-box .text-box {
+		position: relative;
+		display: block;
+		padding: 32px 40px 32px 140px;
+		border-radius: 20px;
+	}
+	
+	.single-box .text-box .icon {
+		position: absolute;
+		left: 40px;
+		top: 34px;
+	}
+	
+	.single-box .text-box h3 {
+		position: relative;
+		display: block;
+		font-size: 24px;
+		line-height: 32px;
+		margin-bottom: 22px;
+		font-weight: 700;
+	}
+	
+	.single-box .text-box p {
+		font-size: 18px;
+		color: #262626;
+		line-height: 26px;
+		font-weight: 400;
+		font-family: "Inter", serif;
+		-webkit-font-smoothing: antialiased;
+	}
+	
+	
+	
+	@media only screen and (max-width: 767px) {
+		.single-box {
+			display: block;
+		}
+	
+		.single-box .text-box {
+			padding-left: 40px;
+		}
+	
+		.single-box .text-box .icon {
+			position: relative;
+			left: 0px;
+			top: 0px;
+			margin-bottom: 20px;
+		}
+		.container{
+			padding: 15px;
+		}
+	}
+	
+}
+.has-global-padding{
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	overflow: hidden;
+
+}

@@ -1,0 +1,148 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "b-blocks/notes-plugin",
+	"version": "1.0.0",
+	"title": "Note",
+	"category": "widgets",
+	"description": "Stylish, customizable notes for alerts, tips, and messages",
+	"keywords": [
+		"note"
+	],
+	"textdomain": "b-blocks",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": "wide"
+		},
+		"purposeType": {
+			"type": "string",
+			"default": "test"
+		},
+		"colors":{
+			"type":"object",
+			"default":{
+				"color": "black",
+				"bg": "#B1C5A4"
+			}
+		},
+		"notes":{
+			"type":"array",
+			"default": [
+                {
+                    "type":"alert",
+                    "name":"Alert",
+                    "message":"Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+                    "icon":"https://i.ibb.co.com/39t3KFLv/icon-1.png"
+                },
+                {
+                    "type":"error",
+                    "name":"Error",
+                    "message":"Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+                    "icon":"https://i.ibb.co.com/vv6tmkZC/icon-2.png"
+                },
+                {
+                    "type":"information",
+                    "name":"Information",
+                    "message":"Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+                    "icon":"https://i.ibb.co.com/dsVT9bJy/icon-3.png",
+                    "link":{
+                        "text":"Button Title",
+                        "status":false,
+                        "link":"#"
+                    }
+                },
+                {
+                    "type":"information",
+                    "name":"Information",
+                    "message":"Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+                    "icon":"https://i.ibb.co.com/5h6WgJH7/icon-14.png"
+                },
+                {
+                    "type":"information",
+                    "name":"Information",
+                    "message":"Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+                    "icon":"https://i.ibb.co.com/dsVT9bJy/icon-3.png"
+                },
+                {
+                    "type":"admin",
+                    "name":"Admin Permissions Required",
+                    "message":"Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+                    "icon":"https://i.ibb.co.com/3m8Zvwb0/icon-10.png"
+                },
+                {
+                    "type":"admin",
+                    "name":"Admin Permissions Required",
+                    "message":"Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+                    "icon":"https://i.ibb.co.com/HpX5Pthn/icon-9.png"
+                },
+                {
+                    "type":"admin",
+                    "name":"Admin Permissions Required",
+                    "message":"Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+                    "icon":"https://i.ibb.co.com/3m8Zvwb0/icon-10.png"
+                },
+                {
+                    "type":"admin",
+                    "name":"Admin Permissions Required",
+                    "message":"Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+                    "icon":"https://i.ibb.co.com/hFbXXZgD/icon-11.png"
+                },
+                {
+                    "type":"admin",
+                    "name":"Admin Permissions Required",
+                    "message":"Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+                    "icon":"https://i.ibb.co.com/mV7T75sw/icon-12.png"
+                },
+                {
+                    "type":"file",
+                    "name":"File",
+                    "message":"Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+                    "icon":"https://i.ibb.co.com/nMyShT3C/icon-7.png",
+                    "link":{
+                        "text":"File Name.txt",
+                        "status":false,
+                        "link":"http://shihab.local/wp-content/uploads/2025/01/download.jpg"
+                    }
+                },
+                {
+                    "type":"tip",
+                    "name":"Tip",
+                    "message":"Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+                    "icon":"https://i.ibb.co.com/20NxKS21/icon-8.png"
+                }
+            ]
+		},
+		"styles":{
+			"type":"object",
+			"default":{
+				"borderColor":"#ffa748",
+				"bg":" #fff6ed"
+			}
+		},
+		"options":{
+			"type":"object",
+			"default":{
+				"isNewTab":true,
+				"selectedTheme":0
+			}
+		}
+
+
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {}
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./view.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}
