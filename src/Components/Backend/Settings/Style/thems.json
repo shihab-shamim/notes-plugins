@@ -27,36 +27,36 @@
     {
         "label":"Admin Per 1",
         "value":5,
-        "content":"<!-- wp:b-blocks/notes-plugin {\"styles\":{\"borderColor\":\"#aad9f9\",\"bg\":\"#f2f9fe\"},\"options\":{\"isNewTab\":true,\"selectedTheme\":5}} /-->"
+        "content":"<!-- wp:b-blocks/notes-plugin {\"styles\":{\"borderColor\":\"#92da6f\",\"bg\":\"#f3fbef\"},\"options\":{\"isNewTab\":true,\"selectedTheme\":5}} /-->"
     },
     {
         "label":"Admin Per 2",
         "value":6,
-        "content":"<!-- wp:b-blocks/notes-plugin {\"styles\":{\"borderColor\":\"#aad9f9\",\"bg\":\"#f2f9fe\"},\"options\":{\"isNewTab\":true,\"selectedTheme\":6}} /-->"
+        "content":"<!-- wp:b-blocks/notes-plugin {\"styles\":{\"borderColor\":\"#92da6f\",\"bg\":\"#f3fbef\"},\"options\":{\"isNewTab\":true,\"selectedTheme\":6}} /-->"
     },
     {
         "label":"Admin Per 3",
         "value":7,
-        "content":"<!-- wp:b-blocks/notes-plugin {\"styles\":{\"borderColor\":\"#aad9f9\",\"bg\":\"#f2f9fe\"},\"options\":{\"isNewTab\":true,\"selectedTheme\":7}} /-->"
+        "content":"<!-- wp:b-blocks/notes-plugin {\"styles\":{\"borderColor\":\"#92da6f\",\"bg\":\"#f3fbef\"},\"options\":{\"isNewTab\":true,\"selectedTheme\":7}} /-->"
     },
     {
         "label":"Admin Per 4",
         "value":8,
-        "content":"<!-- wp:b-blocks/notes-plugin {\"styles\":{\"borderColor\":\"#aad9f9\",\"bg\":\"#f2f9fe\"},\"options\":{\"isNewTab\":true,\"selectedTheme\":8}} /-->"
+        "content":"<!-- wp:b-blocks/notes-plugin {\"styles\":{\"borderColor\":\"#92da6f\",\"bg\":\"#f3fbef\"},\"options\":{\"isNewTab\":true,\"selectedTheme\":8}} /-->"
     },
     {
         "label":"Admin Per 5",
         "value":9,
-        "content":"<!-- wp:b-blocks/notes-plugin {\"styles\":{\"borderColor\":\"#aad9f9\",\"bg\":\"#f2f9fe\"},\"options\":{\"isNewTab\":true,\"selectedTheme\":9}} /-->"
+        "content":"<!-- wp:b-blocks/notes-plugin {\"styles\":{\"borderColor\":\"#92da6f\",\"bg\":\"#f3fbef\"},\"options\":{\"isNewTab\":true,\"selectedTheme\":9}} /-->"
     },
     {
         "label":"File",
         "value":10,
-        "content":"<!-- wp:b-blocks/notes-plugin {\"styles\":{\"borderColor\":\"#aad9f9\",\"bg\":\"#f2f9fe\"},\"options\":{\"isNewTab\":true,\"selectedTheme\":10}} /-->"
+        "content":"<!-- wp:b-blocks/notes-plugin {\"styles\":{\"borderColor\":\"#be8bff\",\"bg\":\"#f8f2ff\"},\"options\":{\"isNewTab\":true,\"selectedTheme\":10}} /-->"
     },
     {
         "label":"Tip",
         "value":11,
-        "content":"<!-- wp:b-blocks/notes-plugin {\"styles\":{\"borderColor\":\"#aad9f9\",\"bg\":\"#f2f9fe\"},\"options\":{\"isNewTab\":true,\"selectedTheme\":11}} /-->"
+        "content":"<!-- wp:b-blocks/notes-plugin {\"styles\":{\"borderColor\":\"#52e7b3\",\"bg\":\"#eefdf8\"},\"options\":{\"isNewTab\":true,\"selectedTheme\":11}} /-->"
     }
 ]
